@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>Javascript Async/await</h1>
+        <h2 id="result"></h2>
+        <script>
+            async function name(a,b) {
+           let response=await a+b;
+           display(response);
+            }
+
+            function display(some){
+              document.getElementById("result").innerHTML=some;
+            }
+
+            name(4,7)
+        </script>
+    </body>
+</html>
